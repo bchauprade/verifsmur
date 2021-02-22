@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+}
+
+.barre-nav{
+    display: flex;
+    background-color: #1193dd;
+    align-items: center;
+    height: 75px;
+}
+
+.menu{
+    display: flex;
+    width: 80%;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.barre-nav img{
+    width: 30px;
+    margin: 15px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.landing-page{
+ margin: 10px 0px 0 15px;
+ height: 805px;
+}
+.image-nav{
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box01{
+    min-width: 303px;
+    height: 183px;
+    position: relative;
+    
+}
+
+.vehicule-box{
+    background-image: url("../img/vehicules.png");
+    margin: 5px;
+}
+
+.locaux-box{
+    margin: 5px;
+    background-image: url("../img/Locaux.png");
+}
+
+.archives-box{
+    margin: 5px;
+    background-image: url("../img/archives.png");
+}
+
+.box-details{
+    background-color: #FFFFFFDF;
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    height: 30px;
+    padding: 0 0 10px 20px;
+}
+
+.box-name{
+    font-size: 15px;
+    font-weight: 200;
+    color: black;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1193dd;
+    height: 72px;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer img{
+    width: 50px;
+    margin: 10px;
+}
+
